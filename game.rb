@@ -20,14 +20,7 @@ class Game
 
   def start_round
     @current_player=@player_1
-  #   puts "You have #{@current_player.lives} lives."
   end
-
-  # def print_info
-  #   puts "testing player1 #{@player_1.name}"
-  #   puts "testing player2 #{@player_2.name}"
-  #   puts "testing current player #{:current_player.name}"
-  # end
 
   def turns_loop
     puts "-------- New Turn --------"
@@ -54,7 +47,6 @@ class Game
     if (@player_1.lives == 0)
       puts "xxxxxxx Game Over. xxxxxxxx"
       puts "Player 2 wins. Score: #{@player_1.lives} to #{@player_2.lives}"
-
       true
     elsif (@player_2.lives == 0)
       puts "xxxxxxx Game Over. xxxxxxxx"

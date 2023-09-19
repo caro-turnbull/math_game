@@ -4,14 +4,11 @@
 # export if_correct???
 
 class Question
-  attr_reader :rightOrWrong
-  attr_reader :current_player
 
   def initialize
     @num1 = rand(21)
     @num2 = rand(21)
     @answer = @num1 + @num2
-    @current_player=current_player
   end
 
   def question_output
