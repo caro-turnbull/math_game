@@ -1,0 +1,15 @@
+entities/classes:
+players
+  points
+  lives
+questions
+  create question
+  verify answer
+
+game
+  current player
+  input output
+
+
+
+Example prompt
